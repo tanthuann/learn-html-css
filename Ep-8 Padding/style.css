@@ -1,0 +1,11 @@
+.list-item {
+	color: #949BE0;
+	font-weight: bold;
+	padding-bottom: 16px;
+	padding-right: 16px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding: 10px 20px 30px; /*top left-right bottom*/
+	padding: 10px 20px; /*top-bottom left-right*/
+	padding: 10px; /*all*/
+}

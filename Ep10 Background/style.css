@@ -1,0 +1,13 @@
+.list-item {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    /*border: 1px solid red;*/
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #686A9E;
+    background-color: transparent;
+    /*background-color: gradient;*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,0,255,0.3225665266106442) 100%);
+}

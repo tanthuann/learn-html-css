@@ -18,8 +18,7 @@
 - letter-spacing: 5px ( khoảng cách giữa các chữ cái )
 - word-spacing: 5px ( khoảng cách giữa các từ )
 - line-height: 1.2 ( khoảng cách giữa các dòng)
-- text-shadow: x y color ( đổ bóng text )
-- font-family: sans-serif<br>
+- text-shadow: x y color ( đổ bóng text )<br>
  	[Explore more](https://adam-marsden.co.uk/css-cheat-sheet)
 
 ### **`Font`**
@@ -55,36 +54,56 @@
 - padding-right: 16px;
 - padding-left: 20px;
 - padding-top: 20px;
-- Shorthand
-	- padding: 10px 20px 30px; /*top left-right bottom*/
-	- padding: 10px 20px; /*top-bottom left-right*/
-	- padding: 10px; /*all*/
+	```css
+	padding: 10px 20px 30px; /*top left-right bottom*/
+	padding: 10px 20px; /*top-bottom left-right*/
+	padding: 10px; /*all*/
+	```
 
 ### **`Margin`**
 - margin-bottom: 16px;
 - margin-right: 16px;
 - margin-left: 20px;
 - margin-top: 20px;
-- Shorthand:
-	- margin: 10px 20px 30px; /*top left-right bottom*/
-	- margin: 10px 20px; /*top-bottom left-right*/
-	- margin: 10px; /*all*/
+	```css
+	margin: 10px 20px 30px; /*top left-right bottom*/
+	margin: 10px 20px; /*top-bottom left-right*/
+	margin: 10px; /*all*/
+	```
 
 ### **`Border`**
 - border-width: 1px;
 - border-style: solid;
 - border-color: #629D6B;
 	```css
-		border: 1px solid #629D6B; /*width style color*/
+	border: 1px solid #629D6B; /*width style color*/
 	```
 	and
 	```css
-		border-width: 10px 20px 30px; /*top left-right bottom*/
-		border-width: 10px 20px; /*top-bottom left-right*/
-		border-width: 5px; /*all*/
+	border-width: 10px 20px 30px; /*top left-right bottom*/
+	border-width: 10px 20px; /*top-bottom left-right*/
+	border-width: 5px; /*all*/
 	```
 - border-direction-color: #BD8576;
 - border-direction-style: dotted;
 - border-direction-width: 1px
 	>##### *Direction: top | right | bottom | left*
-- border-radius
+- border-radius: 4px;
+
+### **`Background`**
+- background-color: *color*
+- background-color: transparent;
+- background-color: *gradient*
+	Example gradient:
+	```css
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,0,255,0.3225665266106442) 100%);
+	```
+	Tool online: [cssgradient.io](https://cssgradient.io/)
+	>Or google with keyword: ***background gradient generator***
+- background-image: url(*path*);
+- background-size: cover | % | contain | *auto* | ...
+- backgroud-repeat: repeat-x | repeat-y | *repeat* ( both x and y )
+- background-position: x y | center;
+- background-attachment: fixed | *scroll*<br>
+	[Example CSS](Ep11%20BackgroundImage)

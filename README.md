@@ -1,11 +1,10 @@
-
 # **Intro**
 
 > Start 21/06/2019
  - This is my code HTML with CSS
  - Learnt from [Coders.tokyo](https://coders.tokyo/)
  - Learn **more** and **more** !
-# **3 ways add CSS**
+# **Add CSS**
 - inline CSS
 - internal CSS ( in tag style)
 - include external CSS ( link  to filename.css )
@@ -107,3 +106,67 @@
 - background-position: x y | center;
 - background-attachment: fixed | *scroll*<br>
 	[Example CSS](Ep11%20BackgroundImage)
+
+### **`Table`**
+- Combination border of ```<table>```, ```<th>```, ```<td>``` .
+- Gross border của element table:
+	```css
+		border-collapse: collapse;
+	```
+- Set width, height of ```<table>```
+- vertical-align: top | middle | bottom (set element location)
+- text-align and vertical-align combination.
+- caption-side: top | bottom | ... (the placement of a table caption)
+
+### **`Icon`**
+- Use icon online: [fontawesome.com](https://fontawesome.com/)
+	>Can explore more animation.
+- Add script in **head** tag:
+	
+	```css
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		or
+		<script src="https://kit.fontawesome.com/7c6793a68c.js"></script>
+	```
+
+### **`Status`**
+- Link: not click link
+- Visited: clicked
+- Hover: point to
+- Active: clicked but not release
+	CSS syntax:
+	```css
+	a:link {}
+	a:visited {}
+	a:hover {}
+	a:active {}
+	```
+
+### **`Display`**
+- display: block | none | inline | inline-block (none not affect the layout)
+	>inline-block, block: can set width, height, ....
+- visibility: hidden ( The element will be hidden, but still affect the layout )
+
+### **`Position`**
+- static: default.
+- relative : localtion set. (left bottom top right)
+	```css
+	div.relative {
+	  position: relative;
+	  left: 30px;
+	  border: 3px solid #73AD21;
+	}
+	```
+- fixed: localtion set and fixed it despite be scrolling.
+- absolute: position with tag nearest
+- sticky: display at position write html and define position fixed despite be scrolling.
+- z-index: -1; ( display element on front of or behind )
+
+### **`Overflow`**
+- visible: default, overflow is not cut, content renders out side.
+- hidden: overflow is cut, not render.
+- scroll: overflow is cut, add a srcollbar to see content rest.
+- auto: same srcoll but it adds scrollbars only when necessary
+	```css
+	overflow: hidden;
+	``` 

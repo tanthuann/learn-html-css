@@ -1,0 +1,44 @@
+div {
+	padding: 20px;
+	margin: 20px;
+}
+.default-link {
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+.default-link:link {
+	color: #D09B9B;
+	text-decoration: none;
+}
+
+.default-link:visited {
+	color: #D09B9B;
+}
+
+.default-link:hover {
+	color: #65CE6C;
+	text-decoration: underline;
+}
+
+.default-link:active {
+	color: red;
+}
+
+.button-register {
+	width: 100px;
+	color: #fff;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 4px;
+	font-size: 50px;
+	font-family: sans-serif;
+	text-decoration: none;
+	background-color: #C46060;
+	transition: padding-right 1s, background-color 1s;
+}
+
+.button-register:hover {
+	background-color: #8BA644;
+	padding-right: 50px;
+}

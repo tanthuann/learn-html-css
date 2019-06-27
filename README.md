@@ -1,3 +1,4 @@
+
 # **Intro**
 
 > Start 21/06/2019
@@ -134,12 +135,9 @@
 - Visited: clicked
 - Hover: point to
 - Active: clicked but not release
-	CSS syntax:
+- focus: clicked input.
 	```css
 	a:link {}
-	a:visited {}
-	a:hover {}
-	a:active {}
 	```
 
 ### **`Display`**
@@ -160,7 +158,7 @@
 - fixed: localtion set and fixed it despite be scrolling.
 - absolute: position with tag nearest
 - sticky: display at position write html and define position fixed despite be scrolling.
-- z-index: -1; ( display element on front of or behind )
+- z-index: -1; ( display element in front of or behind )
 
 ### **`Overflow`**
 - visible: default, overflow is not cut, content renders out side.
@@ -169,4 +167,17 @@
 - auto: same srcoll but it adds scrollbars only when necessary
 	```css
 	overflow: hidden;
-	``` 
+	```
+
+### **`Combinators`**
+- Descendant selector ( space ) 
+- Child selector ( > )
+- Adjacent sibling selector ( + )
+- General sibling  selector ( ~ )
+
+### **`Flex`**
+- display: flex;
+- flex-direction: column | row 
+- justify-content: **flex-start** | flex-end | space-between | space-around | space-evenly | center
+- align-items: **stretch** | flex-start | flex-end | baseline | center
+	>Define align-items perpendicular to flex-direction

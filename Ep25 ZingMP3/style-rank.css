@@ -1,0 +1,62 @@
+.rank-sing {
+	padding: 15px 0;
+	border-bottom: 1px solid #F3F3F3;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+}
+
+.rank-sing .number-rank,.rank-sing .icon,.rank-sing .count-view, .rank-sing .dash {
+	font-size: 30px;
+}
+
+.rank-sing .number-rank {
+	color: #F69393;
+	flex-grow: 1;
+}
+
+.rank-sing .album {
+	display: flex;
+	align-items: center;
+	flex-grow: 14;
+}
+
+.rank-sing .album .picture{
+	height: 125px;
+	width: 125px;
+	background-image: url(./cover.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.rank-sing .album .info {
+	margin: 0 10px;
+	font-size: 20px;
+}
+
+.rank-sing .album .info .song {
+	margin: 10px 0;
+	font-style: bold;
+}
+
+.rank-sing .album .info .singer, .rank-sing .icon  {
+	color: #BCBCBC;
+}
+
+.rank-sing .icon {
+	flex-grow: 1;
+	display: flex;
+}
+
+.rank-sing .icon .icon1, .rank-sing .icon .icon2, .rank-sing .icon .icon3, .rank-sing .icon .icon4 {
+	margin: 10px;
+}
+
+.rank-sing .count-view {
+	flex-grow: 1;
+}
+
+.rank-sing .dash {
+	flex-grow: 1;
+}

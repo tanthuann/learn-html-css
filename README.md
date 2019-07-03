@@ -181,3 +181,7 @@
 - justify-content: **flex-start** | flex-end | space-between | space-around | space-evenly | center
 - align-items: **stretch** | flex-start | flex-end | baseline | center
 	>Define align-items perpendicular to flex-direction
+- flex-basis: 100px; ( width box )
+- flex-grow: 1 ( 1 / 3) ( divide the rest into many section )
+- flex-shrink: **1** (  subtract the overflow to section in tag  )
+- order: **0** | 1 | 2 | ... ( Numerical order )

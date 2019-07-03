@@ -1,9 +1,24 @@
 .container {
 	padding: 0;
-	height: 140px;
 	background-color: #ddd;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
-	align-items: stretch;
-}	
+	align-items: baseline;
+}
+.div1 {
+	background-color: #f00;
+	flex-basis: 150px;
+}
+
+.div2 {
+	background-color: #0f0;
+	flex-basis: 150px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.div3 {
+	background-color: #dd3;
+	flex-basis: 200px;
+}
